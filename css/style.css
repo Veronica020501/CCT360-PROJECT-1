@@ -56,12 +56,18 @@
     height: 300px;
 }
 
+.card{
+    display: flex;
+    flex-direction: column;
+}
+
 .site-footer{
     display: flex;
     flex-direction: column;
     text-align: center;
     padding: 20px;
     background-color: lightseagreen;
+    justify-content: space-between;
 }
 
 /* ------------------------------------------------------------------------------------ */
@@ -128,7 +134,7 @@
     }
     .content-grid{
         display: grid;
-        grid-template-columns: 2fr 1fr;
+        grid-template-columns: 3fr 1fr;
     }
     .content-text{
         display: grid;
