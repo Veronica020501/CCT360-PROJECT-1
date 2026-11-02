@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'arial', sans-serif;
 }
 
 .site-header{
@@ -60,6 +61,9 @@
     display: flex;
     flex-direction: column;
 }
+.card p{
+    padding-top: 10px;
+}
 
 .site-footer{
     display: flex;
@@ -73,6 +77,20 @@
 /* ------------------------------------------------------------------------------------ */
 /* Page 2 - Detail Page*/
 
+.detail-hero{
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: lightyellow;
+    padding: 20px;
+}
+
+.detail-hero ol{
+    padding: 10px 0px 0px 30px;
+}
+
+.detail-hero h1{
+    padding-bottom: 10px;
+}
 .content-grid h2{
     padding: 10px 0px;
 }
@@ -100,16 +118,7 @@
     padding-left: 20px;
 }
 
-.detail-hero{
-    display: grid;
-    grid-template-columns: 1fr;
-    background-color: lightyellow;
-    padding: 20px;
-}
 
-.detail-hero ol{
-    padding: 10px 0px 0px 30px;
-}
 
 /* ------------------------------------------------------------------------------------ */
 /* Desktop Styling */
