@@ -20,9 +20,16 @@
     padding: 10px;
 }
 
+.hero-grid article:nth-child(1) h2, h4, h5, button{
+    padding: 10px;
+}
+
 .hero-grid article:nth-child(2){
     background-color: pink;
     padding: 10px;
+}
+.hero-grid article:nth-child(2) ul{
+    padding:10px 0px 0px 30px;
 }
 
 .cards-gallery img{
@@ -53,7 +60,7 @@
     display: flex;
     flex-direction: column;
     text-align: center;
-    padding: 10px;
+    padding: 20px;
     background-color: lightseagreen;
 }
 
@@ -122,6 +129,11 @@
     .content-grid{
         display: grid;
         grid-template-columns: 2fr 1fr;
+    }
+    .site-footer{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
     }
 }
 
