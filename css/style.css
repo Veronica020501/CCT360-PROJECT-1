@@ -130,6 +130,10 @@
         display: grid;
         grid-template-columns: 2fr 1fr;
     }
+    .content-text{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
     .site-footer{
         display: flex;
         flex-direction: row;
