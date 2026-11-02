@@ -1,3 +1,10 @@
+/* Page 1 - Index Page */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 .site-header{
     display: flex;
     flex-direction: column;
@@ -50,7 +57,49 @@
     background-color: lightseagreen;
 }
 
+/* ------------------------------------------------------------------------------------ */
+/* Page 2 - Detail Page*/
 
+.content-grid h2{
+    padding: 10px 0px;
+}
+.content-grid img{
+    padding-top: 10px;
+}
+.content-grid article:nth-child(1){
+    background-color: #F66769;
+    padding: 10px;
+}
+
+.content-grid article:nth-child(2){
+    background-color: #B28FBE;
+    padding: 10px;
+}
+.content-grid article:nth-child(2) p{
+    padding: 10px 0px;
+}
+
+.content-grid img{
+    max-width: 100%;
+}
+
+.content-grid ol{
+    padding-left: 20px;
+}
+
+.detail-hero{
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: lightyellow;
+    padding: 20px;
+}
+
+.detail-hero ol{
+    padding: 10px 0px 0px 30px;
+}
+
+/* ------------------------------------------------------------------------------------ */
+/* Desktop Styling */
 @media(min-width: 768px){
     .site-header{
         display: flex;
@@ -69,6 +118,10 @@
     .cards-gallery{
         display: grid;
         grid-template-columns: repeat(auto-fit,minmax(280px, 1fr));
+    }
+    .content-grid{
+        display: grid;
+        grid-template-columns: 2fr 1fr;
     }
 }
 
